@@ -1,0 +1,9 @@
+---
+typora-copy-images-to: ../../myassets/img/apache1/
+typora-root-url: ../../
+layout: post
+---
+
+![Apache](/PePS/myassets/img/apache1/66.png)
+
+
