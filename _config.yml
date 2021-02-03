@@ -23,7 +23,7 @@ email: alugui327@ieselcaminas.org
 description: 
 baseurl: "/PePs" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: @guillamon_marta
+twitter_username: guillamon_marta
 github_username: martaguillamon
 
 # Build settings
