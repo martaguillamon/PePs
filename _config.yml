@@ -21,7 +21,7 @@
 title: Blog de Marta Guillamón
 email: alugui327@ieselcaminas.org
 description: 
-baseurl: "/PePS" # the subpath of your site, e.g. /blog
+baseurl: "/PePs" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: @guillamon_marta
 github_username: martaguillamon
