@@ -1,6 +1,9 @@
+---
 typora-copy-images-to: ../../myassets/img/nginx/
 typora-root-url: ../../
 layout: post
+
+---
 
 # Práctica nginx
 
@@ -8,19 +11,19 @@ layout: post
 
 Descargamos la imágen de *ngnix* y la ejecutamos:
 
-![](/myassets/img/nginx/1.PNG)
+![](/PePs/myassets/img/nginx/1.PNG)
 
 
 
 Visitamos http://localhost:8080 para comprobar que funciona correctamente:
 
-![](/myassets/img/nginx/2.PNG)
+![](/PePs/myassets/img/nginx/2.PNG)
 
 
 
 Paramos el contenedor:
 
-![](/myassets/img/nginx/3.PNG)
+![](/PePs/myassets/img/nginx/3.PNG)
 
 
 
@@ -30,23 +33,23 @@ Vamos a crear una página html personalizada y luego la publicaremos usando la i
 
 Para ello en el Directorio de *Documentos* crearemos un directorio llamado *nginx* y en su interior otro directorio de nombre *site-content*. Dentro de este último crearemos el *index.html* con el siguiente contenido:
 
-![](/myassets/img/nginx/4.PNG)
+![](/PePs/myassets/img/nginx/4.PNG)
 
 
 
-![](/myassets/img/nginx/5.PNG)
+![](/PePs/myassets/img/nginx/5.PNG)
 
 
 
 Ejecutamos de nuevo el contenedor, pero esta vez especificamos donde se encuentra nuestro *index.html* y además crearemos un volúmen:
 
-![](/myassets/img/nginx/6.PNG)
+![](/PePs/myassets/img/nginx/6.PNG)
 
 
 
 Y comprobamos su ejecución:
 
-![](/myassets/img/nginx/7.PNG)
+![](/PePs/myassets/img/nginx/7.PNG)
 
 
 
@@ -54,16 +57,16 @@ Y comprobamos su ejecución:
 
 Creamos un Dockerfile en el mismo directorio donde hemos creado nuesto html con el sisguiente contenido:
 
-![](/myassets/img/nginx/8.PNG)
+![](/PePs/myassets/img/nginx/8.PNG)
 
 
 
 Construimos la imágen ejecutando el siguiente comando:
 
-![](/myassets/img/nginx/10.PNG)
+![](/PePs/myassets/img/nginx/10.PNG)
 
 Y ejecutamos la imágen en un contenedor y comprobamos si funciona:
 
-![11](/myassets/img/nginx/11.PNG)
+![](/PePs/myassets/img/nginx/11.PNG)
 
-![](/myassets/img/nginx/12.PNG)
+![](/PePs/myassets/img/nginx/12.PNG)

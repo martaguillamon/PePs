@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/PePs/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/PePs/" rel="alternate" type="text/html" /><updated>2021-02-07T19:02:25+01:00</updated><id>http://localhost:4000/PePs/feed.xml</id><title type="html">Blog de Marta Guillamón</title><entry><title type="html">Nginx</title><link href="http://localhost:4000/PePs/2021/02/07/nginx.html" rel="alternate" type="text/html" title="Nginx" /><published>2021-02-07T00:00:00+01:00</published><updated>2021-02-07T00:00:00+01:00</updated><id>http://localhost:4000/PePs/2021/02/07/nginx</id><content type="html" xml:base="http://localhost:4000/PePs/2021/02/07/nginx.html">&lt;p&gt;typora-copy-images-to: ../../myassets/img/nginx/
-typora-root-url: ../../
-layout: post&lt;/p&gt;
-
-&lt;h1 id=&quot;práctica-nginx&quot;&gt;Práctica nginx&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/PePs/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/PePs/" rel="alternate" type="text/html" /><updated>2021-02-07T19:11:12+01:00</updated><id>http://localhost:4000/PePs/feed.xml</id><title type="html">Blog de Marta Guillamón</title><entry><title type="html">Nginx</title><link href="http://localhost:4000/PePs/2021/02/07/nginx.html" rel="alternate" type="text/html" title="Nginx" /><published>2021-02-07T00:00:00+01:00</published><updated>2021-02-07T00:00:00+01:00</updated><id>http://localhost:4000/PePs/2021/02/07/nginx</id><content type="html" xml:base="http://localhost:4000/PePs/2021/02/07/nginx.html">&lt;h1 id=&quot;práctica-nginx&quot;&gt;Práctica nginx&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -12,15 +8,15 @@ layout: post&lt;/p&gt;
 
 &lt;p&gt;Descargamos la imágen de &lt;em&gt;ngnix&lt;/em&gt; y la ejecutamos:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/myassets/img/nginx/1.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/nginx/1.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Visitamos http://localhost:8080 para comprobar que funciona correctamente:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/myassets/img/nginx/2.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/nginx/2.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Paramos el contenedor:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/myassets/img/nginx/3.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/nginx/3.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Agregar HTML personalizado&lt;/li&gt;
@@ -30,17 +26,17 @@ layout: post&lt;/p&gt;
 
 &lt;p&gt;Para ello en el Directorio de &lt;em&gt;Documentos&lt;/em&gt; crearemos un directorio llamado &lt;em&gt;nginx&lt;/em&gt; y en su interior otro directorio de nombre &lt;em&gt;site-content&lt;/em&gt;. Dentro de este último crearemos el &lt;em&gt;index.html&lt;/em&gt; con el siguiente contenido:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/myassets/img/nginx/4.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/nginx/4.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/myassets/img/nginx/5.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/nginx/5.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ejecutamos de nuevo el contenedor, pero esta vez especificamos donde se encuentra nuestro &lt;em&gt;index.html&lt;/em&gt; y además crearemos un volúmen:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/myassets/img/nginx/6.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/nginx/6.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Y comprobamos su ejecución:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/myassets/img/nginx/7.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/nginx/7.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Creación de una imágen personalizada&lt;/li&gt;
@@ -48,17 +44,17 @@ layout: post&lt;/p&gt;
 
 &lt;p&gt;Creamos un Dockerfile en el mismo directorio donde hemos creado nuesto html con el sisguiente contenido:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/myassets/img/nginx/8.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/nginx/8.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Construimos la imágen ejecutando el siguiente comando:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/myassets/img/nginx/10.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/nginx/10.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Y ejecutamos la imágen en un contenedor y comprobamos si funciona:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/myassets/img/nginx/11.PNG&quot; alt=&quot;11&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/nginx/11.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/myassets/img/nginx/12.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">typora-copy-images-to: ../../myassets/img/nginx/ typora-root-url: ../../ layout: post</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/PePs/jekyll/update/2021/02/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-01T16:20:29+01:00</published><updated>2021-02-01T16:20:29+01:00</updated><id>http://localhost:4000/PePs/jekyll/update/2021/02/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/PePs/jekyll/update/2021/02/01/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/nginx/12.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Práctica nginx</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/PePs/jekyll/update/2021/02/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-01T16:20:29+01:00</published><updated>2021-02-01T16:20:29+01:00</updated><id>http://localhost:4000/PePs/jekyll/update/2021/02/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/PePs/jekyll/update/2021/02/01/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 

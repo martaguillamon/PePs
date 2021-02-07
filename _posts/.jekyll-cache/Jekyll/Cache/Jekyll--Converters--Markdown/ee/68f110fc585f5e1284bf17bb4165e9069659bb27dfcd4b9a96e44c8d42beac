@@ -1,0 +1,89 @@
+I"5<h1 id="configuración-básica-de-apache">Configuración básica de Apache</h1>
+
+<ol>
+  <li>
+    <h4 id="tarea-1"><strong>Tarea 1</strong></h4>
+  </li>
+</ol>
+
+<p>Creación de dos hosts virtuales:</p>
+
+<ul>
+  <li>Directorio /etc/apache2/sites-available</li>
+</ul>
+
+<p><img src="/PePs/myassets/img/apache_basico/1.PNG" alt="" /></p>
+
+<ul>
+  <li>Directorio /etc/apache2/sites-enabled</li>
+</ul>
+
+<p><img src="/PePs/myassets/img/apache_basico/2.PNG" alt="" /></p>
+
+<ul>
+  <li>Configuración de website2</li>
+</ul>
+
+<p><img src="/PePs/myassets/img/apache_basico/3.PNG" alt="" /></p>
+
+<ul>
+  <li>Configuración de website2</li>
+</ul>
+
+<p><img src="/PePs/myassets/img/apache_basico/4.PNG" alt="" /></p>
+
+<ul>
+  <li>Configuración de /etc/hosts</li>
+</ul>
+
+<p><img src="/PePs/myassets/img/apache_basico/5.PNG" alt="" /></p>
+
+<ul>
+  <li>Configuración de DocumentRoot de website1 y website2</li>
+</ul>
+
+<p><img src="/PePs/myassets/img/apache_basico/7.PNG" alt="" /></p>
+
+<ul>
+  <li>Navegador con ambos sitios</li>
+</ul>
+
+<p><img src="/PePs/myassets/img/apache_basico/6.PNG" alt="" /></p>
+
+<ol>
+  <li>
+    <h4 id="tarea-2"><strong>Tarea 2</strong></h4>
+  </li>
+</ol>
+
+<ul>
+  <li>Configuración de Apache para la creación de directorios virtuales y comprobación en el navegador</li>
+</ul>
+
+<p><img src="/PePs/myassets/img/apache_basico/8.png" alt="" /></p>
+
+<ol>
+  <li>
+    <h4 id="tarea-3"><strong>Tarea 3</strong></h4>
+  </li>
+</ol>
+
+<ul>
+  <li>Modificación de la configuración de Apache para realizar la redirección y Status  Code 302</li>
+</ul>
+
+<p><img src="/PePs/myassets/img/apache_basico/9.png" alt="" /></p>
+
+<ol>
+  <li>
+    <h4 id="tarea-4"><strong>Tarea 4</strong></h4>
+  </li>
+</ol>
+
+<ul>
+  <li>Modificación de la configuración de Apache y Status Code 404</li>
+</ul>
+
+<p><img src="/PePs/myassets/img/apache_basico/10.png" alt="" /></p>
+
+:ET

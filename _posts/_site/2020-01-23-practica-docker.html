@@ -1,0 +1,47 @@
+<h1 id="práctica-docker"><strong>Práctica Docker</strong></h1>
+
+<ol>
+  <li>
+    <h4 id="comprobaciones-antes-de-realizar-la-práctica"><strong>Comprobaciones antes de realizar la práctica</strong></h4>
+
+    <p>Comprobamos que Docker está instalado correctamente, para ello ejecutemos el comando <em>docker ps:</em></p>
+
+    <p><img src="/PePs/myassets/img/docker/1.png" alt="" /></p>
+  </li>
+  <li>
+    <h4 id="primer-contenedor-en-docker"><strong>Primer contenedor en Docker</strong></h4>
+
+    <p>Primero ejecutemos el script <em>build.sh</em> para construir el contenedor</p>
+
+    <p><img src="/PePs/myassets/img/docker/2.png" alt="" /></p>
+  </li>
+  <li>
+    <h4 id="ejecutar-el-contenedor"><strong>Ejecutar el contenedor</strong></h4>
+
+    <p>Una vez construido, lanzamos el script <em>debug.sh</em> para lanzar el contenedor</p>
+
+    <p><img src="/PePs/myassets/img/docker/3.png" alt="" /></p>
+  </li>
+</ol>
+
+<p>​		Accedemos a https://localhost:8086/public_html/. Si se visita varias veces, el contador aumentará.</p>
+
+<p><img src="/PePs/myassets/img/docker/4.png" alt="" /></p>
+
+<p>​		Comprobamos que el contenedor se está ejecutando con el comando <em>docker ps</em>:</p>
+
+<p><img src="/PePs/myassets/img/docker/5.png" alt="" /></p>
+
+<p>​		El siguiente paso es evitar que el contador empiece de 1 cada vez que se pare o se reinicie el contenedor. Para ello ejecutaremos el script <em>persisit.sh</em>:</p>
+
+<p><img src="/PePs/myassets/img/docker/6.png" alt="" /></p>
+
+<p>​		Paramos el contenedor y lo volvemos a iniciar para comprobar que se ha aplicado correctamente:</p>
+
+<p><img src="/PePs/myassets/img/docker/7.png" alt="" /></p>
+
+<p>​		Finalmente, ejecutamos el script <em>shell.sh</em> para iniciar el shell Bash para usar la linea de comandos:</p>
+
+<p><img src="/PePs/myassets/img/docker/8.png" alt="" /></p>
+
+<p>​</p>
