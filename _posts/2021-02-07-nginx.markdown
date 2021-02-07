@@ -15,9 +15,11 @@ Descargamos la imágen de *ngnix* y la ejecutamos:
 
 
 
+
 Visitamos http://localhost:8080 para comprobar que funciona correctamente:
 
 ![](/PePs/myassets/img/nginx/2.PNG)
+
 
 
 
@@ -47,9 +49,11 @@ Ejecutamos de nuevo el contenedor, pero esta vez especificamos donde se encuentr
 
 
 
+
 Y comprobamos su ejecución:
 
 ![](/PePs/myassets/img/nginx/7.PNG)
+
 
 
 
@@ -61,9 +65,12 @@ Creamos un Dockerfile en el mismo directorio donde hemos creado nuesto html con 
 
 
 
+
 Construimos la imágen ejecutando el siguiente comando:
 
 ![](/PePs/myassets/img/nginx/10.PNG)
+
+
 
 Y ejecutamos la imágen en un contenedor y comprobamos si funciona:
 
