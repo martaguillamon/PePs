@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/PePs/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/PePs/" rel="alternate" type="text/html" /><updated>2021-02-07T18:11:39+01:00</updated><id>http://localhost:4000/PePs/feed.xml</id><title type="html">Blog de Marta Guillamón</title><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/PePs/jekyll/update/2021/02/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-01T16:20:29+01:00</published><updated>2021-02-01T16:20:29+01:00</updated><id>http://localhost:4000/PePs/jekyll/update/2021/02/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/PePs/jekyll/update/2021/02/01/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Apache1</title><link href="http://localhost:4000/PePs/2021/02/01/apache1.html" rel="alternate" type="text/html" title="Apache1" /><published>2021-02-01T00:00:00+01:00</published><updated>2021-02-01T00:00:00+01:00</updated><id>http://localhost:4000/PePs/2021/02/01/apache1</id><content type="html" xml:base="http://localhost:4000/PePs/2021/02/01/apache1.html">&lt;h1 id=&quot;p1-apache&quot;&gt;P1 Apache&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;instalación-de-un-certificado-digital-en-apache&quot;&gt;Instalación de un certificado digital en Apache&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/apache1/66.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;redirigir-el-tráfico-de-nuestro-sitio&quot;&gt;Redirigir el tráfico de nuestro sitio*&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/apache1/80.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">P1 Apache</summary></entry><entry><title type="html">Reflexion Bastionado De Redes Y Sistemas</title><link href="http://localhost:4000/PePs/2020/12/27/reflexion-bastionado-de-redes-y-sistemas.html" rel="alternate" type="text/html" title="Reflexion Bastionado De Redes Y Sistemas" /><published>2020-12-27T00:00:00+01:00</published><updated>2020-12-27T00:00:00+01:00</updated><id>http://localhost:4000/PePs/2020/12/27/reflexion-bastionado-de-redes-y-sistemas</id><content type="html" xml:base="http://localhost:4000/PePs/2020/12/27/reflexion-bastionado-de-redes-y-sistemas.html">&lt;p&gt;Toda empresa debe tener en cuenta las consecuencias a las que se puede enfrentar si no implementa de forma correcta una serie de metodologías para aumentar la seguridad de los dispositivos y de la empresa en sí misma.&lt;/p&gt;
+
+&lt;p&gt;Una de estas medidas es la seguridad de la información. Esta permitirá que la información con la que cuenta la empresa sea solo accesible a aquellas personas que tengan acceso a ella, que esta sea auténtica y, por lo tanto, que no haya sido modificada en el transcurso y, por último, que se encuentre el mayor tiempo disponible para las personas que puedan acceder a ella.&lt;/p&gt;
+
+&lt;p&gt;Además de mantener los datos asegurados, existen otros conceptos a tener en cuenta, como la defensa en profundidad, la cual dicta que todo componente de un sistema puede llegar a ser vulnerado. Una forma de poder administrar estos componentes es separarlos en superficies de ataque; lo cual consiste en dividirlos según la cantidad de formas que un atacante puede obtener acceso a los dispositivos.&lt;/p&gt;
+
+&lt;p&gt;Una forma sencilla de aplicar este método sería dividirlo en 3 tipos de superficies: software (Sistema operativo, programas…), hardware (routers, switches…) y recursos humanos.
+La intención de esta división es reducir al máximo la superficie de ataque, reduciendo así a su vez la probabilidad de vulnerabilidades y, además, permite administrar con mayor facilidad los diferentes componentes.&lt;/p&gt;
+
+&lt;p&gt;Esta serie de medidas que se han mencionado anteriormente se pueden aplicar desde dentro de la propia empresa o contratando los servicios de un SOC externo, que se encargará de aplicarlas, realizar monitoreo de los equipos de la red y de realizar auditorías periódicas para mantener un nivel de seguridad lo más óptimo posible.&lt;/p&gt;</content><author><name></name></author><summary type="html">Toda empresa debe tener en cuenta las consecuencias a las que se puede enfrentar si no implementa de forma correcta una serie de metodologías para aumentar la seguridad de los dispositivos y de la empresa en sí misma.</summary></entry><entry><title type="html">Configuracion Basica Apache</title><link href="http://localhost:4000/PePs/2020/01/28/configuracion-basica-apache.html" rel="alternate" type="text/html" title="Configuracion Basica Apache" /><published>2020-01-28T00:00:00+01:00</published><updated>2020-01-28T00:00:00+01:00</updated><id>http://localhost:4000/PePs/2020/01/28/configuracion-basica-apache</id><content type="html" xml:base="http://localhost:4000/PePs/2020/01/28/configuracion-basica-apache.html">&lt;h1 id=&quot;configuración-básica-de-apache&quot;&gt;Configuración básica de Apache&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;tarea-1&quot;&gt;&lt;strong&gt;Tarea 1&lt;/strong&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Creación de dos hosts virtuales:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Directorio /etc/apache2/sites-available&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/apache_basico/1.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Directorio /etc/apache2/sites-enabled&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/apache_basico/2.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Configuración de website2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/apache_basico/3.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Configuración de website2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/apache_basico/4.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Configuración de /etc/hosts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/apache_basico/5.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Configuración de DocumentRoot de website1 y website2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/apache_basico/7.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Navegador con ambos sitios&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/apache_basico/6.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;tarea-2&quot;&gt;&lt;strong&gt;Tarea 2&lt;/strong&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Configuración de Apache para la creación de directorios virtuales y comprobación en el navegador&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/apache_basico/8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;tarea-3&quot;&gt;&lt;strong&gt;Tarea 3&lt;/strong&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Modificación de la configuración de Apache para realizar la redirección y Status  Code 302&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/apache_basico/9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;tarea-4&quot;&gt;&lt;strong&gt;Tarea 4&lt;/strong&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Modificación de la configuración de Apache y Status Code 404&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/apache_basico/10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Configuración básica de Apache</summary></entry><entry><title type="html">Practica Docker</title><link href="http://localhost:4000/PePs/2020/01/23/practica-docker.html" rel="alternate" type="text/html" title="Practica Docker" /><published>2020-01-23T00:00:00+01:00</published><updated>2020-01-23T00:00:00+01:00</updated><id>http://localhost:4000/PePs/2020/01/23/practica-docker</id><content type="html" xml:base="http://localhost:4000/PePs/2020/01/23/practica-docker.html">&lt;h1 id=&quot;práctica-docker&quot;&gt;&lt;strong&gt;Práctica Docker&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;comprobaciones-antes-de-realizar-la-práctica&quot;&gt;&lt;strong&gt;Comprobaciones antes de realizar la práctica&lt;/strong&gt;&lt;/h4&gt;
+
+    &lt;p&gt;Comprobamos que Docker está instalado correctamente, para ello ejecutemos el comando &lt;em&gt;docker ps:&lt;/em&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/docker/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;primer-contenedor-en-docker&quot;&gt;&lt;strong&gt;Primer contenedor en Docker&lt;/strong&gt;&lt;/h4&gt;
+
+    &lt;p&gt;Primero ejecutemos el script &lt;em&gt;build.sh&lt;/em&gt; para construir el contenedor&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/docker/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;ejecutar-el-contenedor&quot;&gt;&lt;strong&gt;Ejecutar el contenedor&lt;/strong&gt;&lt;/h4&gt;
+
+    &lt;p&gt;Una vez construido, lanzamos el script &lt;em&gt;debug.sh&lt;/em&gt; para lanzar el contenedor&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/docker/3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;​		Accedemos a https://localhost:8086/public_html/. Si se visita varias veces, el contador aumentará.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/docker/4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​		Comprobamos que el contenedor se está ejecutando con el comando &lt;em&gt;docker ps&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/docker/5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​		El siguiente paso es evitar que el contador empiece de 1 cada vez que se pare o se reinicie el contenedor. Para ello ejecutaremos el script &lt;em&gt;persisit.sh&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/docker/6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​		Paramos el contenedor y lo volvemos a iniciar para comprobar que se ha aplicado correctamente:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/docker/7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​		Finalmente, ejecutamos el script &lt;em&gt;shell.sh&lt;/em&gt; para iniciar el shell Bash para usar la linea de comandos:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PePs/myassets/img/docker/8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;</content><author><name></name></author><summary type="html">Práctica Docker</summary></entry></feed>

@@ -9,12 +9,10 @@ layout: post
 
 1. #### Instalación de un certificado digital en Apache
 
-![](/myassets/img/apache1/66.png)
+![](/PePs/myassets/img/apache1/66.png)
 
 
 
-2. #### Redirigir el tráfico de nuestro sitio
+2. #### Redirigir el tráfico de nuestro sitio*
 
-![](/myassets/img/apache1/80.png)
-
-
+![](/PePs/myassets/img/apache1/80.png)

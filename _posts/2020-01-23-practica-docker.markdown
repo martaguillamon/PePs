@@ -10,13 +10,13 @@ layout: post
 
    Comprobamos que Docker está instalado correctamente, para ello ejecutemos el comando *docker ps:*
 
-   ![](/myassets/img/docker/1.png)
+   ![](/PePs/myassets/img/docker/1.png)
 
 2. #### **Primer contenedor en Docker**
 
    Primero ejecutemos el script *build.sh* para construir el contenedor
 
-   ![](/myassets/img/docker/2.png)
+   ![](/PePs/myassets/img/docker/2.png)
 
    
 
@@ -24,31 +24,29 @@ layout: post
 
    Una vez construido, lanzamos el script *debug.sh* para lanzar el contenedor
 
-   ![](/myassets/img/docker/3.png)
+   ![](/PePs/myassets/img/docker/3.png)
 
 ​		Accedemos a https://localhost:8086/public_html/. Si se visita varias veces, el contador aumentará. 
 
-![](/myassets/img/docker/4.png)
-
-
+![](/PePs/myassets/img/docker/4.png)
 
 ​		Comprobamos que el contenedor se está ejecutando con el comando *docker ps*:
 
-![](/myassets/img/docker/5.png)
-
-
+![](/PePs/myassets/img/docker/5.png)
 
 ​		El siguiente paso es evitar que el contador empiece de 1 cada vez que se pare o se reinicie el contenedor. Para ello ejecutaremos el script *persisit.sh*:
 
-![](/myassets/img/docker/6.png)
+![](/PePs/myassets/img/docker/6.png)
 
 ​		Paramos el contenedor y lo volvemos a iniciar para comprobar que se ha aplicado correctamente:
 
-![](/myassets/img/docker/7.png)
+![](/PePs/myassets/img/docker/7.png)
 
 ​		Finalmente, ejecutamos el script *shell.sh* para iniciar el shell Bash para usar la linea de comandos:
 
-![](/myassets/img/docker/8.png)
+![](/PePs/myassets/img/docker/8.png)
+
+
 
 
 
