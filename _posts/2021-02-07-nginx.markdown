@@ -27,7 +27,7 @@ Paramos el contenedor:
 
 
 
-- Agregar HTML personalizado
+- #### Agregar HTML personalizado
 
 Vamos a crear una página html personalizada y luego la publicaremos usando la imágen de Ngixn.
 
