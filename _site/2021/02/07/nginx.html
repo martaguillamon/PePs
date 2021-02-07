@@ -1,0 +1,61 @@
+<p>typora-copy-images-to: ../../myassets/img/nginx/
+typora-root-url: ../../
+layout: post</p>
+
+<h1 id="práctica-nginx">Práctica nginx</h1>
+
+<ul>
+  <li>
+    <h4 id="instalación">Instalación</h4>
+  </li>
+</ul>
+
+<p>Descargamos la imágen de <em>ngnix</em> y la ejecutamos:</p>
+
+<p><img src="/myassets/img/nginx/1.PNG" alt="" /></p>
+
+<p>Visitamos http://localhost:8080 para comprobar que funciona correctamente:</p>
+
+<p><img src="/myassets/img/nginx/2.PNG" alt="" /></p>
+
+<p>Paramos el contenedor:</p>
+
+<p><img src="/myassets/img/nginx/3.PNG" alt="" /></p>
+
+<ul>
+  <li>Agregar HTML personalizado</li>
+</ul>
+
+<p>Vamos a crear una página html personalizada y luego la publicaremos usando la imágen de Ngixn.</p>
+
+<p>Para ello en el Directorio de <em>Documentos</em> crearemos un directorio llamado <em>nginx</em> y en su interior otro directorio de nombre <em>site-content</em>. Dentro de este último crearemos el <em>index.html</em> con el siguiente contenido:</p>
+
+<p><img src="/myassets/img/nginx/4.PNG" alt="" /></p>
+
+<p><img src="/myassets/img/nginx/5.PNG" alt="" /></p>
+
+<p>Ejecutamos de nuevo el contenedor, pero esta vez especificamos donde se encuentra nuestro <em>index.html</em> y además crearemos un volúmen:</p>
+
+<p><img src="/myassets/img/nginx/6.PNG" alt="" /></p>
+
+<p>Y comprobamos su ejecución:</p>
+
+<p><img src="/myassets/img/nginx/7.PNG" alt="" /></p>
+
+<ul>
+  <li>Creación de una imágen personalizada</li>
+</ul>
+
+<p>Creamos un Dockerfile en el mismo directorio donde hemos creado nuesto html con el sisguiente contenido:</p>
+
+<p><img src="/myassets/img/nginx/8.PNG" alt="" /></p>
+
+<p>Construimos la imágen ejecutando el siguiente comando:</p>
+
+<p><img src="/myassets/img/nginx/10.PNG" alt="" /></p>
+
+<p>Y ejecutamos la imágen en un contenedor y comprobamos si funciona:</p>
+
+<p><img src="/myassets/img/nginx/11.PNG" alt="11" /></p>
+
+<p><img src="/myassets/img/nginx/12.PNG" alt="" /></p>
