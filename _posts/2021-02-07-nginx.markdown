@@ -57,7 +57,7 @@ Y comprobamos su ejecución:
 
 
 
-- ####Creación de una imágen personalizada
+- #### Creación de una imágen personalizada
 
 Creamos un Dockerfile en el mismo directorio donde hemos creado nuesto html con el siguiente contenido:
 
