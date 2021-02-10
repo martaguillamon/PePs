@@ -1,0 +1,82 @@
+---
+typora-copy-images-to: ../../myassets/img/django/
+typora-root-url: ../../
+layout: post
+
+---
+
+
+
+### Definir los componentes del projecto 
+
+Para realizar el proyecto se necesita crear un Dockerfile y un fichero docker-compose.yml
+
+Antes de crearlos, crearemos un directorio vacío con un nombre identificativo para el proyecto (en este caso se le ha llamado django).
+
+![](/PePs/myassets/img/django/1.png)
+
+
+
+Dentro de esta carpeta crearemos el archivo Dokerfile, donde se especificará los commandos para configurar la imágen.
+
+![](/PePs/myassets/img/django/2.png)
+
+![](/PePs/myassets/img/django/3.png)
+
+Dentro del mismo directorio creamos un archivo llamado requirements.txt, el cual usará el Dockerfile con el comando RUN. Añadimos las siguientes lineas en su interor:
+
+![](/PePs/myassets/img/django/5.png)
+
+Creamos el fichero docker-compose.yml en el directorio del proyecto. Este fichero describe los servicios que va a realizar la app, en nuestro caso servidor web y base de datos.
+
+​								![](/PePs/myassets/img/django/7.png) 
+
+
+
+### Creación del proyecto
+
+Para crear el proyecto ejecutaremos el siguiente comando:
+
+![](/PePs/myassets/img/django/8.png)
+
+
+
+Una vez finalize, listaremos los contenidos del proyecto para visualizar los archivos que se han creado.
+
+![](/PePs/myassets/img/django/9.png)
+
+Como se puede observar no todos los archivos tienen como propietario nuestro usuario por lo que hay que codificarlo. Ejecutamos este comado para cambiarlo.
+
+![](/PePs/myassets/img/django/10.png)
+
+
+
+### Conexión con la base de datos
+
+Accedemos al directorio composeexample y modificamos el archivo settings.py. Añadiremos los siguientes valores en el campo DATABASES = ...
+
+![](/PePs/myassets/img/django/12.png)
+
+
+
+Por ultimo ejecutamos el comando *docker-compose up* para ejecutar el proyecto
+
+![](/PePs/myassets/img/django/13.png)
+
+
+
+Y accedemos a http://localhost:8000 para visualizar la página de bienvenida de Django
+
+![](/PePs/myassets/img/django/14.png)
+
+
+
+Para ver los contenedores que están en ejecución escribir el comando *docker container ls*
+
+![](/PePs/myassets/img/django/15.png)
+
+
+
+Para parar los servicios se ejecutará el comando *docker-compose down*
+
+![](/PePs/myassets/img/django/16.png)
