@@ -7,7 +7,7 @@ layout: post
 
 
 
-#### Creamos un directorio vacio donde colocaremos la imágen de la aplicación
+#### Creamos un directorio vacio donde colocaremos la imágen de la aplicación:
 
 ![](/PePs/myassets/img/wordpress/1.png)
 
