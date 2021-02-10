@@ -27,6 +27,6 @@ layout: post
 ![](/PePs/myassets/img/wordpress/4.png)
 
 
-#### Y comprobamos que se esta ejecutando 
+#### Y comprobamos que se esta ejecutando: 
 
 ![](/PePs/myassets/img/wordpress/5.png)
