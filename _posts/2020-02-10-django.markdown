@@ -17,7 +17,7 @@ Antes de crearlos, crearemos un directorio vacío con un nombre identificativo p
 
 
 
-Dentro de esta carpeta crearemos el archivo Dokerfile, donde se especificará los commandos para configurar la imágen.
+Dentro de esta carpeta crearemos el archivo Dokerfile, donde se especificará los comandos para configurar la imágen.
 
 ![](/PePs/myassets/img/django/2.png)
 
