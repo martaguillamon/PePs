@@ -1,5 +1,4 @@
-##### 
-
+---
 typora-copy-images-to: ../../myassets/img/wordpress/
 typora-root-url: ../../
 layout: post
