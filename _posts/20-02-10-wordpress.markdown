@@ -20,7 +20,7 @@ layout: post
 
 
 
-#### Dentro del archivo añadir las siguientes lineas:
+#### Dentro del archivo añadimos las siguientes lineas:
 
 ![](/PePs/myassets/img/wordpress/3.png)
 
