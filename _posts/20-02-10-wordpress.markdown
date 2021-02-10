@@ -12,7 +12,7 @@ layout: post
 ![](/PePs/myassets/img/wordpress/1.png)
 
 
- #### Cambiamos al directorio del proyecto y creamos el archivo *docker-compose.yml*
+#### Cambiamos al directorio del proyecto y creamos el archivo *docker-compose.yml*
 
 ![](/PePs/myassets/img/wordpress/2.png)
 
