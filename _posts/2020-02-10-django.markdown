@@ -9,7 +9,7 @@ layout: post
 
 ### Definir los componentes del projecto 
 
-Para realizar el proyecto se necesita crear un Dockerfile y un fichero docker-compose.yml
+Para realizar el proyecto se necesita crear un Dockerfile y un fichero docker-compose.yml.
 
 Antes de crearlos, crearemos un directorio vacío con un nombre identificativo para el proyecto (en este caso se le ha llamado django).
 
