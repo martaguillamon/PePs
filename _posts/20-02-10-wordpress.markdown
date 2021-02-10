@@ -9,7 +9,7 @@ layout: post
 
 #### Creamos un directorio vacio donde colocaremos la imágen de la aplicación:
 
-![](/PePs/myassets/img/wordpress/1.png)
+<center>![](/PePs/myassets/img/wordpress/1.png)</center>
 
 
 #### Cambiamos al directorio del proyecto y creamos el archivo *docker-compose.yml*
