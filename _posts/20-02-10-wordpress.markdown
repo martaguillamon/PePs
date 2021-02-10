@@ -5,16 +5,18 @@ layout: post
 
 ---
 
-# Práctica Wordpress
+
 
 #### Creamos un directorio vacio donde colocaremos la imágen de la aplicación
 
 ![](/PePs/myassets/img/wordpress/1.png)
 
 
+
 #### Cambiamos al directorio del proyecto y creamos el archivo *docker-compose.yml*
 
 ![](/PePs/myassets/img/wordpress/2.png)
+
 
 
 
@@ -24,9 +26,11 @@ layout: post
 
 
 
+
 #### Para construir el proyecto ejecutaremos el comando *docker-compose up -d*
 
 ![](/PePs/myassets/img/wordpress/4.png)
+
 
 
 
