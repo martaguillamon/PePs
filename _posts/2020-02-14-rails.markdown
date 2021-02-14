@@ -4,7 +4,6 @@ typora-root-url: ../../
 layout: post
 ---
 
-# Práctica Rails
 
 #### Definir el proyecto
 
