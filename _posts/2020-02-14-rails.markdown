@@ -1,0 +1,149 @@
+---
+typora-copy-images-to: ../../myassets/img/nginx/
+typora-root-url: ../../
+layout: post
+---
+
+# Práctica Rails
+
+#### Definir el proyecto
+
+Para poder crear la aplicación dentro de Docker es necesario crear un fichero Dockerfile. Para ello, crearemos una carpeta con un nombre identificativo sobre el proyecto y dentro de ella crearemos nuestro fichero:
+
+![](/PePs/myassets/img/rails/1.png)
+
+
+
+
+
+En su interior copiaremos las siguientes lineas:
+
+![](/PePs/myassets/img/rails/2.png)
+
+
+
+
+
+En el mismo directorio creamos un fichero Gemfile el cual será cargado por Rails.
+
+![](/PePs/myassets/img/rails/3.png)
+
+
+
+
+
+E introducimos en su interior las siguientes lineas:
+
+![](/PePs/myassets/img/rails/4.png)
+
+
+
+
+
+Para que el Dockerfile se generé correctamente, crearemos un fichero vacío Gemfile.lock
+
+![](/PePs/myassets/img/rails/5.png)
+
+
+
+
+
+A continuación crearemos un script llamdado *entrypoint.sh*, que servirá para solucionar el problema de reinicio del servidor si un archivo *server.pid* existe.
+
+![](/PePs/myassets/img/rails/6.png)
+
+
+
+
+
+Y copiamos el siguiente contenido:
+
+![](/PePs/myassets/img/rails/7.png)
+
+
+
+
+
+Para acabar, creamos un fichero docker-compose.yml, en el que se especifica los servicios que va a servir la app en nuestro caso una base de datos y una aplicación web.
+
+![](/PePs/myassets/img/rails/8.png)
+
+
+
+
+
+Insertamos las siguientes lineas:
+
+![](/PePs/myassets/img/rails/9.png)
+
+
+
+
+
+#### Construcción del proyecto
+
+Para generar los cimientos de la aplicación ejecutamos el siguiente comando:
+
+![](/PePs/myassets/img/rails/10.png)
+
+
+
+
+
+Comprobamos que se ha construido los ficheros de forma correcta:
+
+![](/PePs/myassets/img/rails/11.png)
+
+Al ejecutar el comando se puede observar que no todos los archivos tienen como propietario el usuario *root* asi que lo modificaremos:
+
+![](/PePs/myassets/img/rails/12.png)
+
+
+
+
+
+Y volvemos a generar la imágen:
+
+![](/PePs/myassets/img/rails/13.png)
+
+
+
+
+
+#### Conexión con la base de datos
+
+Para que la aplicación se ejecute en *localhost*, modificamos el contenido del fichero *config/database.yml* con las siguientes lineas:
+
+![](/PePs/myassets/img/rails/14.png)
+
+
+
+
+
+Y ya podemos iniciar la aplicación. Ejecutamos este comando:
+
+![](/PePs/myassets/img/rails/15.png)
+
+
+
+Abrimos otro terminal para crear la base de datos. Tecleamos este comando:
+
+![](/PePs/myassets/img/rails/16.png)
+
+
+
+
+
+Y accedemos a http://localhost:3000
+
+![](/PePs/myassets/img/rails/17.png)
+
+
+
+
+
+#### Parar la aplicación
+
+Para para la aplicación ejecutamos el siguiente comando:
+
+![](/PePs/myassets/img/rails/18.png)
