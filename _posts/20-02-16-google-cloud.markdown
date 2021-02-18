@@ -132,3 +132,45 @@ Y accedemos al navegador con la URL que proporciona:
 
 
 #### Actualizar el servicio web
+
+Vamos a crear un formulario para que un usuario pueda enviar datos a nuestro servidor. Para ello dentro de la carpeta del proyecto creamos otra carpeta llamda views, en la cual almacenaremos los archivos HTML. 
+
+Creamos un formulario llamado form.html con el siguiente código:
+
+![](/PePs/myassets/img/google_cloud/32.png)
+
+
+
+Mediante este formulario, el usuario podrá enviar su nombre y un mensaje al servidor.
+
+
+
+Instalamos la dependencia body-parser para poder leer los datos que se envian en la solicitud
+
+![](/PePs/myassets/img/google_cloud/34.png)
+
+Modificamos el archivo server.js para que muestre el formulario cuando el usuario navegue y añadimos la dependecia que hemos instalado en el paso anterior: 
+
+![](/PePs/myassets/img/google_cloud/35.png)
+
+
+
+#### Realizar pruebas del formulario de manera local
+
+Iniciamos el servidor Node.js:
+
+![](/PePs/myassets/img/google_cloud/22.png)
+
+
+
+Y comprobamos que funciona accediendo a http://localhost:8080/submit
+
+![](/PePs/myassets/img/google_cloud/36.png)
+
+
+
+#### Implemetar cambios
+
+Desde la carpeta principal del proyecto ejecutamos el siguiente comando:
+
+![](/PePs/myassets/img/google_cloud/28.png)
