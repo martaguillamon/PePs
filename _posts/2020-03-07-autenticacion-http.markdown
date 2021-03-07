@@ -5,7 +5,7 @@ layout: post
 
 ---
 
-Mediante la autenticación de acceso permite que un navegador pida credenciales a un usuario cundo solicite una página al servidor.
+Mediante la autenticación de acceso se permite que un navegador pida credenciales a un usuario cuando solicite una página al servidor.
 
 Para implementarlo crearemos un fichero .php con el siguiente contenido:
 
