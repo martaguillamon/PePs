@@ -1,0 +1,86 @@
+---
+typora-copy-images-to: ../../myassets/img/oauth/
+typora-root-url: ../../
+layout: post
+
+---
+
+### **Crear una aplicación que utilice OAuth**
+
+Para poder crear las credenciales accedemos a [este enlace](https://console.developers.google.com/projectsselector2/apis/credentials). Accedemos a la pestaña de Credenciales y seleccionamos Crear Credenciales --> ID de cliente OAuth
+
+![](/PePs/myassets/img/oauth/2.png)
+
+
+
+Establecemos la configuración de la pantalla de consentimiento en Externo
+
+![](/PePs/myassets/img/oauth/4.png)
+
+
+
+Le damos un nombre identificativo al proyecto y la URI a la que queremos redirigir una vez se haya finalizado el proceso de login.
+
+![](/PePs/myassets/img/oauth/6.png)
+
+
+
+Una vez creado el cliente, en pantalla se mostrará el ID del cliente y el secreto, apuntatelo para utilizarlo más tarde.
+
+
+
+### **Instalación de Composer**
+
+Para instalarlo ejecutamos los siguientes comandos:
+
+![](/PePs/myassets/img/oauth/8.png)
+
+
+
+Comprobamos que se ha instalado correctamente:
+
+![](/PePs/myassets/img/oauth/9.png)
+
+
+
+Lanzamos el archivo de configuración:
+
+![](/PePs/myassets/img/oauth/10.png)
+
+
+
+Eliminamos el link de composer:
+
+![](/PePs/myassets/img/oauth/11.png)
+
+
+
+Bajamos el repositorio de Github, bajamos de nuevo el instalador de composer dentro del directorio y lo ejecutamos:
+
+![](/PePs/myassets/img/oauth/12.png)
+
+
+
+![](/PePs/myassets/img/oauth/13.png)
+
+
+
+![](/PePs/myassets/img/oauth/14.png)
+
+
+
+Habilitamos la API de Google Drive y ejecutamos desde el repositorio la siguiente orden:
+
+![](/PePs/myassets/img/oauth/18.png)
+
+
+
+Al acceder al navegador nos aparecerá la siguiente ventana:
+
+![](/PePs/myassets/img/oauth/15.png)
+
+
+
+Aceptamos los permisos y en pantalla se mostrará un listado con los docuemntos de Drive
+
+![](/PePs/myassets/img/oauth/16.png)
