@@ -4,7 +4,7 @@ typora-root-url: ../../
 layout: post
 
 ---
----
+
 
 
 Creamos un contenedor de Docker con Apache instalado en su interior. Creamos un directorio donde guardaremos el fichero *index.html* y otro directorio donde guardaremos un fichero .txt. Si lanzamos el contenedor y accedemos al directorio donde se ha guardado el fichero .txt obtendremos un resultado similar a el siguiente:
