@@ -79,3 +79,33 @@ El resultado debería ser similar al siguiente:
 
 
 
+
+
+# **WAF**
+
+WAF (Web Application Firewall) es un tipo de firewall que filtra o bloquea el tráfico HTTP de entrada y de salida de la página web. Antes de configurar el Dockerfile, primero instalaremos la libreria de *mod-security*.
+
+![](/PePs/myassets/img/hardening/16.PNG)
+
+
+
+Renombramos el fichero de configuración:
+
+![](/PePs/myassets/img/hardening/17.PNG)
+
+Ponemos el fichero de configuración en el directorio donde vamos a crear el Dockerfile. A continuación vamos a crearlo:
+
+![](/PePs/myassets/img/hardening/18.PNG)
+
+
+
+Si introducimos una entrada en el formulario que está bloqueada nos saltará un status code 403
+
+![](/PePs/myassets/img/hardening/19.PNG)
+
+
+
+![](/PePs/myassets/img/hardening/20.PNG)
+
+
+
