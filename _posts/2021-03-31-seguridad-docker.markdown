@@ -99,3 +99,19 @@ Otro ejemplo sería crear un contenedor dentro de otro contenedor:
 # **Seguridad en imágenes**
 
 Se recomienda utilizar imágenes oficiales, o en el defecto de querer usar otras, que se tenga acceso al Dockerfile para poder inspeccionarlo previamente.
+
+
+
+
+
+# **Escaneo pasivo de vulnerabilidades**
+
+
+
+Vamos a realizar un escaneo de vulnerabilidades de una imágen de wordpress. Para ello usaremos *trivy*:
+
+![](/PePs/myassets/img/seguridad_docker/20.png)
+
+
+
+![](/PePs/myassets/img/seguridad_docker/trivy-1.png)
