@@ -109,3 +109,52 @@ Si introducimos una entrada en el formulario que está bloqueada nos saltará un
 
 
 
+# **Instalar reglas OWASP mediante Docker**
+
+OWASP provee una serie de reglas para proteger contra ataques como XSS, inyección SQL, etc. Vamos a aplicar las reglas báscias dentro de un Docker. 
+
+Para ello, crearemos un directorio identificativo donde guardaremos todos los ficheros de configuración necesarios.
+
+Primero vámos a crear el *Dockerfile* que tomará como imágen base un Debian, instalaremos *apache*, php *y* *libapache2-mod-security*. Estableceremos como directorio de trabajo */var/www/html* y copiaremos los archivos de configuración de *apache* y de *modsecurity* en sus correspondientes directorios. Renombraremos el último archivo y procederemos a habilitar *headres*, *ssl* y a deshabilitar *autoindex*.
+
+![](/PePs/myassets/img/hardening/22.PNG)
+
+
+
+En el archivo de configuración del VirtualHost tendremos la siguientes lineas:
+
+![](/PePs/myassets/img/hardening/23.PNG)
+
+
+
+En archivo de configuración de *apache* añadimos las siguientes lineas en el caso de que no se encuentre ya incluidas:
+
+![](/PePs/myassets/img/hardening/24.PNG)
+
+
+
+En el archivo de *modsecurity.conf-recommened* añadimos estas lineas:
+
+![](/PePs/myassets/img/hardening/25.PNG)
+
+
+
+La estructura del directorio debería quedar de la siguiente forma:
+
+![](/PePs/myassets/img/hardening/21.PNG)
+
+
+
+Una vez ponemos en marcha el contenedor, probamos a poner en el navegador *localhost/index.html?testparam=test*. Debería saltar la regla que hemos establecido y aparecer *Forbidden*.
+
+![](/PePs/myassets/img/hardening/26.PNG)
+
+
+
+También podriamos probar si detiene una ataque de inyección SQL y de path traversal.
+
+![](/PePs/myassets/img/hardening/27.PNG)
+
+
+
+![](/PePs/myassets/img/hardening/28.PNG)
