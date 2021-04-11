@@ -158,3 +158,61 @@ También podriamos probar si detiene una ataque de inyección SQL y de path trav
 
 
 ![](/PePs/myassets/img/hardening/28.PNG)
+
+
+
+# **Evitar ataques DOS**
+
+Mediante el módulo mod_evasive se pueden evitar ataques DoS mediante el escaneo de conexiones de forma continua. Al encontrár una conexión la banea dependiendo de la configuración que se le establezca.
+
+Para poder aplicarlo primero instalamos el módulo *libapache2-mod-evasive*
+
+![29](/PePs/myassets/img/hardening/29.PNG)
+
+
+
+Editamos el fichero de configuración *evasive.conf*:
+
+![30](/PePs/myassets/img/hardening/30.PNG)
+
+
+
+Descomentamos las siguientes lineas:
+
+![31](/PePs/myassets/img/hardening/31.PNG)
+
+
+
+Una vez modificado, guradamos y salimos. Creamos un directorio para que se guarden los logs que se generan:
+
+![32](/PePs/myassets/img/hardening/32.PNG)
+
+
+
+Y le asignamos el propietario del directorio:
+
+![33](/PePs/myassets/img/hardening/33.PNG)
+
+
+
+Y reiniciamos el servicio de Apache:
+
+![34](/PePs/myassets/img/hardening/34.PNG)
+
+
+
+Para comprobar que funciona ejecutamos ApacheBench con el siguiente comando:
+
+![35](/PePs/myassets/img/hardening/35.PNG)
+
+Como se puede ver, este genera un informa en el que se puede ver como no se han procesado todas las solicitudes.
+
+Además revisando los logs de error de Apache se puede ver como se deniga.
+
+![36](/PePs/myassets/img/hardening/36.PNG)
+
+
+
+Para finalizar, crearemos un Dockerfile que realice todo el proceso que hemos hecho anteriormente. Este quedará de la siguiente forma:
+
+![37](/PePs/myassets/img/hardening/37.PNG)
