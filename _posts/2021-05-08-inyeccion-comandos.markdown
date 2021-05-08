@@ -5,15 +5,15 @@ layout: post
 
 ---
 
-Vamos a realizar un reverse shell mediante inyección de comandos desde un campo de texto de un formulario.
+Vamos a realizar un *reverse shell* mediante inyección de comandos desde un campo de texto de un formulario.
 
 
 
-Para ello nos vamos a descargar una plantilla de [esta dirección](https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php) y la gurardaremos como shell.php
+Para ello nos vamos a descargar una plantilla de [esta dirección](https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php) y la gurardaremos como *shell.php*
 
 Lo editamos y cambiamos la dirección IP por la que tenemos en el equipo.
 
-![5](/home/ionut/PePs/myassets/img/mutillidae/5.png)
+![](/PePs/myassets/img/mutillidae/5.png)
 
 
 
@@ -31,7 +31,7 @@ Para ello utlizaremos la siguiente instrucción:
 
 ```
 
-![1](/home/ionut/PePs/myassets/img/mutillidae/1.png)
+![](/PePs/myassets/img/mutillidae/1.png)
 
 
 
@@ -43,13 +43,13 @@ Una vez creado lo descodificamos y lo guardamos como fichero .php con la siguien
 
 ```
 
-![2](/home/ionut/PePs/myassets/img/mutillidae/2.png)
+![](/PePs/myassets/img/mutillidae/2.png)
 
 
 
 Realizamos al conexión mediante netcad
 
-![4](/home/ionut/PePs/myassets/img/mutillidae/4.png)
+![](/PePs/myassets/img/mutillidae/4.png)
 
 
 
